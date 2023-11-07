@@ -22,8 +22,8 @@ def count_colours(src):
 def quant_image(rgb_img, clusters):
     reshaped_image = np.reshape(rgb_img, ((rgb_img.shape[0] * rgb_img.shape[1]), 3))
 
-    #model = MiniBatchKMeans(n_clusters=clusters, batch_size=2304)
-    model = KMeans(n_clusters=clusters)
+    model = MiniBatchKMeans(n_clusters=clusters, batch_size=2304)
+    #model = KMeans(n_clusters=clusters)
     target = model.fit_predict(reshaped_image)
     color_space = model.cluster_centers_
 
