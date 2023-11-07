@@ -1,0 +1,7 @@
+matplotlib==3.5.3
+numpy==1.26.1
+opencv_python==4.8.0.76
+pandas==1.4.4
+scikit_learn==1.1.2
+sewar==0.4.6
+streamlit==1.23.1
