@@ -6,7 +6,7 @@
     Reduce Colors in Any Image!!
     <br/>
     <br/>
-    <a href="https://github.com/Gurneet1928/Kmeans-quantization">View Demo</a>
+    <a href="https://kmeans-quantization.streamlit.app">Try Here</a>
     .
     <a href="https://github.com/Gurneet1928/Kmeans-quantization/issues">Report Bug</a>
     .
@@ -24,6 +24,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Metrics](#metrics)
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
@@ -86,6 +87,15 @@ In order to use the project, follow the steps:
 - Upload Any image using the **Upload** button
 - Select any number of clusters using the slider at the middle bottom of the screen (By Default 2)
 - Output is Generated on the right panel and you can right-click it to save it.
+
+## Metrics
+
+To find the difference between the original and Quantized image, the project uses 5 metrics from **SEWAR** library:
+- Mean Squared Error (MSE) (Less=Better)
+- Multi-scale Structural Similarity Index  (MSSSIM) (High=Better)
+- Peak Signal-to-Noise Ratio (PSNR) (Less=Better)
+- Spectral Angle Mapper (SAM) (Less=Better)
+- Spatial Correlation Coefficient (SCC) (Less=Better)
 
 ## Contributing
 
