@@ -31,7 +31,7 @@
 
 ## About The Project
 
-![Screen Shot](https://kmeans-quantization.streamlit.app/)
+![Screen Shot](images/mainmenu.png)
 
 A simple 8-bit RGB image is capable of showing 16.7 million colors. This is possible to due each color space - Red, Green and Blue carrying 2 to the power 8 colors. This means a total of 2 to the power 24 colors. 
 
